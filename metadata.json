@@ -1,0 +1,6 @@
+{
+  "name": "Ayush Swasthya Saathi",
+  "description": "ABDM-compliant digital health platform with Ministry of Ayush Indian art theme, multilingual voice support, and low-literacy patient accessibility.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

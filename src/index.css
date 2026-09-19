@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-baloo {
+    font-family: 'Baloo 2', cursive, sans-serif;
+  }
+  .font-rozha {
+    font-family: 'Rozha One', serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* Light Green & Pale White Gradient Theme */
+.ayush-light-bg {
+  background: linear-gradient(180deg, #EDF7F2 0%, #F6FAF7 40%, #FFFFFF 100%);
+}
+
+.ayush-light-header {
+  background: linear-gradient(135deg, #E6F3EB 0%, #EFF8F3 50%, #F9FCFA 100%);
+}
+
+.ayush-subtle-pattern {
+  background-color: #F3F9F5;
+  background-image: radial-gradient(#86C5A5 0.75px, transparent 0.75px), radial-gradient(#A9DAC2 0.75px, #F3F9F5 0.75px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+.ayush-soft-card {
+  background: #FFFFFF;
+  border: 1px solid #D1EADE;
+  box-shadow: 0 4px 20px -2px rgba(30, 86, 56, 0.05);
+}
+
+.ayush-soft-card-gradient {
+  background: linear-gradient(160deg, #FFFFFF 0%, #F8FCF9 60%, #EEF7F2 100%);
+  border: 1px solid #C8E5D5;
+  box-shadow: 0 4px 18px -2px rgba(30, 86, 56, 0.06);
+}
+
+/* Sound wave animation for active TTS narration */
+@keyframes wavePulse {
+  0%, 100% { height: 6px; }
+  50% { height: 18px; }
+}
+
+.soundwave-bar {
+  display: inline-block;
+  width: 3px;
+  background-color: currentColor;
+  border-radius: 9999px;
+  animation: wavePulse 1s ease-in-out infinite;
+}
+.soundwave-bar:nth-child(2) {
+  animation-delay: 0.18s;
+}
+.soundwave-bar:nth-child(3) {
+  animation-delay: 0.36s;
+}
+.soundwave-bar:nth-child(4) {
+  animation-delay: 0.54s;
+}
+
