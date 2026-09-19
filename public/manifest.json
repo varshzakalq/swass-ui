@@ -1,0 +1,16 @@
+{
+  "short_name": "Swasthya Saathi",
+  "name": "Ayush Swasthya Saathi",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F5FAF7",
+  "theme_color": "#165634",
+  "display": "standalone",
+  "orientation": "portrait"
+}
